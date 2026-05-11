@@ -1,0 +1,9 @@
+const valores = [5, 8, 12, 8, 3];
+const a = valores.find(v => v === 8);
+const b = valores.filter(v => v === 8);
+const c = valores.some(v => v === 8);
+
+console.log(a, b, c) // 8 [8, 8] true
+
+
+// Busca o primeiro 8, cria um array com todos os 8 e verifica se existe algum 8 no array
